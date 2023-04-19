@@ -1,5 +1,6 @@
 1. git init: Tạo local repo -> Tạo thành công -> có 1 thư mục ẩn .git
 2. git remote add origin + url tới source code: Kết nối từ Local Repo -> Remote Repo
+2.1 git remote set-url origin <tên branch>: đối nhánh muốn push lên
 3. Các bước đẩy code lên Repo:
     1. git add .(all) (+tên file (cho từng file)) : Đẩy file có sự thay đổi lên staging area
     2. git status: Kiểm tra sự thay đổi.
@@ -7,4 +8,12 @@
     4. git commit -m "Đây là message" : Ghi chú lại sự thay đổi code.
     5. git log: Kiểm tra các commit
     6. git push -u (1st time) origin main (master): Đẩy code từ Local Repo -> Remote Repo. Các lần sau ko cần -u
+    7. git clone: Clone github về
+    8. git pull: Pull những thay đổi mới nhất về.
+    9. git stash: Cất hết file đã commit.
+    10. git branch + <devA>: Tạo nhánh tên devA. 
+    11. git branch: Ktra các branch đang có ở local.
+    12. git checkout <devA> : Đổi sáng nhánh devA.
+    13. git merge <devA>: merge nhánh devA vào nhánh đang đứng.
     
+
