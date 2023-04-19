@@ -1,6 +1,10 @@
-1. git init -> Tạo local repo
--> Tạo thành công -> có 1 thư mục ẩn .git
-2. git remote add origin + url tới source code: Kết nối từ Local repo -> Remote repo
-3. Các bước đẩy code lên repo:
-    1. git add .(+tên file (cho từng file)) -> Đẩy file có sự thay đổi lên staging area
+1. git init: Tạo local repo -> Tạo thành công -> có 1 thư mục ẩn .git
+2. git remote add origin + url tới source code: Kết nối từ Local Repo -> Remote Repo
+3. Các bước đẩy code lên Repo:
+    1. git add .(all) (+tên file (cho từng file)) : Đẩy file có sự thay đổi lên staging area
+    2. git status: Kiểm tra sự thay đổi.
+    3. git reset: revert sự thay đổi.
+    4. git commit -m "Đây là message" : Ghi chú lại sự thay đổi code.
+    5. git log: Kiểm tra các commit
+    6. git push -u (1st time) origin main (master): Đẩy code từ Local Repo -> Remote Repo. Các lần sau ko cần -u
     
