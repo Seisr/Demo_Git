@@ -9,3 +9,5 @@ B1: sẽ đẩy các file có sự thay đổi lên staging area, dùng lệnh g
 B2: tạo ra commit để ghi chú lại sự thay đổi code, chúng ta dùng lệnh git commit -m "lời nhắn", muốn kiểm tra các commit đang có sẽ dùng lệnh git log 
 
 B3: đẩy code từ local repo lên remote repo để lưu trữ, lần đầu sẽ dùng lệnh git push -u origin + tên nhánh, những lần sau chỉ cần dùng lệnh git push origin 
+
+Khi đi làm tham gia một dự án mới, cần lấy source code từ trên remote repo về thì chúng ta sẽ sử dụng lệnh git clone url 
